@@ -2,7 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Work+Sans:wght@400;500;700;800&display=swap');
 
-* {
+* 
+{
     font-family: Work Sans, sans-serif;
 
 }
@@ -209,6 +210,18 @@ main {
     width: 165px;
 }
 
+.footer-title{
+    background: #FFF4E7;
+    text-align: center;
+    border-radius: 8px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 90px;
+    margin-bottom: 150px;
+}
+
 
 
 /* responsive style media queries */
@@ -246,6 +259,13 @@ main {
 
     .facts-card-container {
         gap: 15px;
+    }
+    .footer-title{
+        margin-left: 1px;
+        margin-right: 1px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 10px;
     }
 
 }
