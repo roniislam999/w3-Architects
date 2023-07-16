@@ -117,7 +117,16 @@ main {
     color: #FF900E;
     font-weight: 700px;
 }
-
+/* facts sectione */
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.facts-card-container .card{
+text-align: center;
+border-radius: 8px;
+border: 1px solid #FF900E;
+}
 
 
 
