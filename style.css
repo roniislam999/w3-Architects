@@ -145,6 +145,20 @@ main {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+ /* sectione sponspors */
+ .sponspors{
+    text-align: center;
+ }
+ .sponspors-img-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    align-items: center;
+ }
+ .sponspors-img-container img{
+    width: 165px;
+ }
 
 
 
@@ -156,7 +170,7 @@ main {
     }
 
     nav,
-    .team-container {
+    .team-container,.facts-card-container, .sponspors-img-container {
         flex-direction: column;
 
     }
@@ -165,9 +179,12 @@ main {
         grid-template-columns: 1fr;
     }
 
-    .team-content {
+    .team-content, .facts-card-container  {
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .facts-card-container{
+        gap: 15px;
     }
 
 }
@@ -176,7 +193,7 @@ main {
 @media screen and (min-width:576px) and (max-width:960px) {
 
     nav,
-    .team-container {
+    .team-container,.sponspors-img-container {
         flex-direction: column;
     }
 
